@@ -2,8 +2,8 @@ import UIKit
 
 let whatIsThis: String = "This project is for git practice freaking git"
 
-class AppleWatch {
-    let series1: String = "Apple Watch Series 1"
+class AppleWatch { // 반복문 사용
+    let series1 = ("Apple Watch Series 1", 15)
     let series2: String = "Apple Watch Series 2"
     let series3: String = "Apple Watch Series 3"
     let series4: String = "Apple Watch Series 4"
@@ -18,7 +18,9 @@ class AppleWatch {
     let ultra2: String = "Apple Watch Ultra 2"
 }
 
-class swVersion {
-    
+class swVersion: AppleWatch {
+    func support() {
+        
+    }
 }
 
