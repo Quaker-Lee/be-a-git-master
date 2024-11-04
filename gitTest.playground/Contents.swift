@@ -24,3 +24,4 @@ class swVersion: AppleWatch {
     }
 }
 
+print("I'm in git test!")
