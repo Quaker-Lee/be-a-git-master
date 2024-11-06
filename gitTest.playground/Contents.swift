@@ -24,4 +24,40 @@ class swVersion: AppleWatch {
     }
 }
 
-print("I'm in git test!")
+let minusClosure: (Int, Int) -> Int = { value1, value2 in
+    return value1 - value2
+}
+
+print(minusClosure(1, 1))
+
+enum Sports: Int {
+    case soccer
+    case baseball
+    case golf = 10
+    case basketball
+}
+
+Sports.soccer.rawValue      //0
+Sports.baseball.rawValue    //1
+Sports.golf.rawValue        //2
+Sports.basketball.rawValue  //3
+
+enum Country: String {
+    case Korea = "Seoul"
+    case Japan
+}
+
+Country.Korea.rawValue
+Country.Japan.rawValue
+
+enum Hanguel: Character {
+    case a = "ㄱ"
+    case b = "ㄴ"
+    case c = "ㄷ"
+    case d = "ㄹ"
+}
+
+Hanguel.a.rawValue
+Hanguel.b.rawValue
+Hanguel.c.rawValue
+Hanguel.d.rawValue
