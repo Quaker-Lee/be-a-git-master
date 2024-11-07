@@ -24,6 +24,7 @@ class swVersion: AppleWatch {
     }
 }
 
+// ㅅㄷㄴㅅ
 let minusClosure: (Int, Int) -> Int = { value1, value2 in
     return value1 - value2
 }
